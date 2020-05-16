@@ -1,0 +1,24 @@
+C:\Users\Morteza\Documents\Visual Studio 2017\Projects\EXCAD\EXCAD\bin\Debug\EXCAD.exe
+C:\Users\Morteza\Documents\Visual Studio 2017\Projects\EXCAD\EXCAD\bin\Debug\EXCAD.pdb
+C:\Users\Morteza\Documents\Visual Studio 2017\Projects\EXCAD\EXCAD\obj\Debug\EXCAD.csprojAssemblyReference.cache
+C:\Users\Morteza\Documents\Visual Studio 2017\Projects\EXCAD\EXCAD\obj\Debug\EXCAD.frmMain.resources
+C:\Users\Morteza\Documents\Visual Studio 2017\Projects\EXCAD\EXCAD\obj\Debug\EXCAD.Properties.Resources.resources
+C:\Users\Morteza\Documents\Visual Studio 2017\Projects\EXCAD\EXCAD\obj\Debug\EXCAD.csproj.GenerateResource.cache
+C:\Users\Morteza\Documents\Visual Studio 2017\Projects\EXCAD\EXCAD\obj\Debug\EXCAD.csproj.CoreCompileInputs.cache
+C:\Users\Morteza\Documents\Visual Studio 2017\Projects\EXCAD\EXCAD\obj\Debug\EXCAD.exe
+C:\Users\Morteza\Documents\Visual Studio 2017\Projects\EXCAD\EXCAD\obj\Debug\EXCAD.pdb
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\bin\Debug\EXCAD.exe
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\bin\Debug\EXCAD.pdb
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Debug\EXCAD.frmMain.resources
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Debug\EXCAD.Properties.Resources.resources
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Debug\EXCAD.csproj.GenerateResource.cache
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Debug\EXCAD.csproj.CoreCompileInputs.cache
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Debug\EXCAD.exe
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Debug\EXCAD.pdb
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Debug\Interop.AutoCAD.dll
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Debug\Interop.AXDBLib.dll
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Debug\EXCAD.csproj.ResolveComReference.cache
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Debug\EXCAD.csprojAssemblyReference.cache
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Debug\EXCAD.frmCommand.resources
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Debug\EXCAD.frmAppHost.resources
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\bin\Debug\EXCAD.exe.config
