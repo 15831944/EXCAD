@@ -142,6 +142,7 @@ namespace EXCAD
             File.Copy(tempArchiveFile, file, true);
             Directory.Delete(tempArchiveFolder, true);
             File.Delete(tempArchiveFile);
+
             CurrentFile = file;
         }
 
