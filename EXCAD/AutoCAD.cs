@@ -104,7 +104,12 @@ namespace EXCAD
 
         public void DrawCircle(double centerX, double centerY, double radius)
         {
-            AUTOCAD.AcadCircle circle = this.autocadApp.ActiveDocument.ModelSpace.AddCircle(new double[] { centerX, centerY, 0 }, radius);
+            this.autocadApp.ActiveDocument.ModelSpace.AddCircle(new double[] { centerX, centerY, 0 }, radius);
+        }
+
+        public void DrawLine(double startX, double startY, double endX, double endY)
+        {
+            this.autocadApp.ActiveDocument.ModelSpace.AddLine(new double[] { startX, startY, 0 }, new double[] { endX, endY, 0 });
         }
 
         public IEnumerable<Dictionary<string, object>> SelectedObjectsProperties()

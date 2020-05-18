@@ -39,6 +39,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtCenterYCell = new System.Windows.Forms.TextBox();
+            this.btnDrawLine = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -74,7 +76,7 @@
             // 
             this.btnWriteObjectInfo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnWriteObjectInfo.Location = new System.Drawing.Point(12, 133);
+            this.btnWriteObjectInfo.Location = new System.Drawing.Point(12, 169);
             this.btnWriteObjectInfo.Name = "btnWriteObjectInfo";
             this.btnWriteObjectInfo.Size = new System.Drawing.Size(192, 23);
             this.btnWriteObjectInfo.TabIndex = 17;
@@ -86,7 +88,7 @@
             // 
             this.txtObjectInfoSheet.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtObjectInfoSheet.Location = new System.Drawing.Point(12, 107);
+            this.txtObjectInfoSheet.Location = new System.Drawing.Point(12, 143);
             this.txtObjectInfoSheet.Name = "txtObjectInfoSheet";
             this.txtObjectInfoSheet.Size = new System.Drawing.Size(192, 20);
             this.txtObjectInfoSheet.TabIndex = 16;
@@ -95,7 +97,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 91);
+            this.label2.Location = new System.Drawing.Point(9, 127);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(99, 13);
             this.label2.TabIndex = 15;
@@ -145,11 +147,35 @@
             this.txtCenterYCell.TabIndex = 20;
             this.txtCenterYCell.Text = "Sheet1!A2";
             // 
+            // btnDrawLine
+            // 
+            this.btnDrawLine.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnDrawLine.Location = new System.Drawing.Point(12, 89);
+            this.btnDrawLine.Name = "btnDrawLine";
+            this.btnDrawLine.Size = new System.Drawing.Size(192, 23);
+            this.btnDrawLine.TabIndex = 22;
+            this.btnDrawLine.Text = "Draw Line (0, 0), (100, 100)";
+            this.btnDrawLine.UseVisualStyleBackColor = true;
+            this.btnDrawLine.Click += new System.EventHandler(this.btnDrawLine_Click);
+            // 
+            // label6
+            // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label6.BackColor = System.Drawing.Color.DimGray;
+            this.label6.Location = new System.Drawing.Point(-1, 119);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(218, 1);
+            this.label6.TabIndex = 23;
+            // 
             // frmCommand
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(216, 168);
+            this.ClientSize = new System.Drawing.Size(216, 203);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.btnDrawLine);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtCenterYCell);
             this.Controls.Add(this.label4);
@@ -184,5 +210,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtCenterYCell;
+        private System.Windows.Forms.Button btnDrawLine;
+        private System.Windows.Forms.Label label6;
     }
 }

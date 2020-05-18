@@ -29,8 +29,8 @@ namespace EXCAD
                 return;
             }
 
-            Excel excel = (Excel)AppManager.ExcelApp;
-            AutoCAD autoCAD = (AutoCAD)AppManager.AutoCADApp;
+            Excel excel = AppManager.ExcelApp;
+            AutoCAD autoCAD = AppManager.AutoCADApp;
 
             object cx = excel.GetRangeValue(txtCenterXCell.Text);
             object cy = excel.GetRangeValue(txtCenterYCell.Text);
@@ -46,8 +46,8 @@ namespace EXCAD
                 return;
             }
 
-            Excel excel = (Excel)AppManager.ExcelApp;
-            AutoCAD autoCAD = (AutoCAD)AppManager.AutoCADApp;
+            Excel excel = AppManager.ExcelApp;
+            AutoCAD autoCAD = AppManager.AutoCADApp;
 
             var objectsProperties = autoCAD.SelectedObjectsProperties();
             int row = 1;
@@ -69,6 +69,17 @@ namespace EXCAD
                 }
                 alternativeColor = !alternativeColor;
             }
+        }
+
+        private void btnDrawLine_Click(object sender, EventArgs e)
+        {
+            if (!AppManager.ApplicationsStarted)
+            {
+                MessageBox.Show("External applications is not started");
+                return;
+            }
+
+            AppManager.AutoCADApp.DrawLine(0, 0, 100, 100);
         }
     }
 }
