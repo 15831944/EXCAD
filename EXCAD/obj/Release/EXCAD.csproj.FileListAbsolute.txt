@@ -12,3 +12,4 @@ C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Relea
 C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Release\EXCAD.csproj.CoreCompileInputs.cache
 C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Release\EXCAD.exe
 C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\obj\Release\EXCAD.pdb
+C:\Users\Morteza\Desktop\freelancer.com\@zimboue - Jorge F\EXCAD\EXCAD\bin\Release\EXCAD.exe.config

@@ -45,7 +45,6 @@ namespace EXCAD
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-            
             string[] args = Environment.GetCommandLineArgs();
             if (args?.Count()>1)
                 OpenEXCADFile(args[1]);
@@ -76,7 +75,7 @@ namespace EXCAD
                     autocadForm.DockApp();
             }
             else
-                MessageBox.Show("Please Start Applications in File->Command->Start");
+                MessageBox.Show("External applications is not started");
         }
 
         private void undockApplicationsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -224,8 +223,6 @@ namespace EXCAD
                 AppManager.Save(saveFileDialog.FileName);
             this.Text = WindowTitle;
         }
-
-
 
         private void OpenEXCADFile(string file)
         {
